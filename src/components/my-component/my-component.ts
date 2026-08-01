@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
 })
 export class MyComponent {
 
-  appName='Interview Happy';
-  user= {firstName:'John', lastName:'Doe'};
+ imageUrl = 'https://angular.io/assets/images/logos/angular/angular.svg';
 
 }
