@@ -6,4 +6,9 @@ import { Component } from '@angular/core';
   templateUrl: './my-component.html',
   styleUrl: './my-component.css',
 })
-export class MyComponent {}
+export class MyComponent {
+
+  appName='Interview Happy';
+  user= {firstName:'John', lastName:'Doe'};
+
+}
