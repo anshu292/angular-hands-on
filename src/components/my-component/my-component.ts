@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 })
 export class MyComponent {
 
- imageUrl = 'https://angular.io/assets/images/logos/angular/angular.svg';
-
+showMessage() {
+  alert('Hello from MyComponent!');
+}
 }
